@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-900;
+  }
+}
+
+@layer components {
+  .prize-card {
+    @apply transform transition-all duration-300;
+  }
+  
+  .prize-card:hover {
+    @apply scale-105;
+  }
+}
