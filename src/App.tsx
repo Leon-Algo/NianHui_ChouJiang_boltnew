@@ -30,7 +30,7 @@ const SAMPLE_PRIZES: Prize[] = [
   {
     id: '4',
     name: '三等奖 - 小米手环',
-    quantity: 10,
+    quantity: 8,
     image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400',
     winners: []
   }
